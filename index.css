@@ -1,0 +1,105 @@
+body {
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bellefair', serif;
+}
+
+.home-logo {
+    height: 40px;
+}
+
+.navbar-nav a.nav-link {
+    color: white !important;
+}
+
+.nav-brand {}
+
+.nav-back {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    border-radius: 0px !important;
+    z-index: 1;
+}
+
+.nav-logo {
+    height: 45px;
+}
+
+.navbar-text {
+    color: white;
+}
+
+.home-nav {
+    padding: 1px 2px;
+}
+.nav-icons:ac{
+    border: none;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    margin-right: 50px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.nav-item::before {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #D0D6F9;
+    padding: 0;
+    /* margin-bottom: 14px;   */
+}
+
+.nav-item:active {
+    border-bottom: 2px solid white;
+    padding: 0;
+    /* margin-bottom: 14px;   */
+}
+
+.home-text {
+    color: white;
+}
+
+.home-text3 {
+    font-size: 100px;
+}
+
+.home-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.home-text-div {
+    padding: 80px;
+}
+
+hr {
+    width: 32rem;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 110px;
+}
