@@ -13,7 +13,6 @@ body {
     color: white !important;
 }
 
-.nav-brand {}
 
 .nav-back {
     background-color: rgba(255, 255, 255, 0.1);
@@ -98,13 +97,24 @@ h5 {
     color: black;
 }
 
+.tech-cel:active {
+    background-color: white;
+    color: black;
+}
+
+.tech-cell:visited {
+    background-color: white;
+    color: black;
+}
+
+
 
 .tech-cell{
     text-decoration: none;
 }
 
 .tech-img{
-    height: 400px;
+    height: 22rem;
 }
 /* .home-text {
     color: white;
